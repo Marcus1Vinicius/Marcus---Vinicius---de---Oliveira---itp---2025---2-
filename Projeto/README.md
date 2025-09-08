@@ -54,7 +54,23 @@ Este projeto tem como objetivo desenvolver um sistema de gestão para pequenos c
 
 ```
 nome-do-aluno-itp-2025-2/
+|-- listas/                       # Exercícios/listas da disciplina
+|   |-- semana2/
+|   |   `-- ...
+|   |-- semana3/
+|   |   `-- ...
+|   `-- ...
+|
 |-- projeto/
+|   |-- include/                  # Arquivos de cabeçalho (.h)
+|   |   |-- produto.h             # Declaração da struct Produto e suas funções
+|   |   |-- vendas.h              # Declaração da struct Venda e suas funções
+|   |   |-- item_venda.h          # Declaração da struct Item_Venda e suas funções
+|   |   |-- nota_fiscal.h         # Declaração da struct Nota_Fiscal e suas funções
+|   |   |-- data.h                # Declaração da struct Data
+|   |   |-- comercio.h            # Declaração da struct Comercio
+|   |   `-- ... (outros .h se necessário)
+|
 |   |-- src/                      # Código-fonte das implementações (.c)
 |   |   |-- main.c                # Fluxo principal do programa e menu
 |   |   |-- produto.c             # Implementação das funções de produto
@@ -64,23 +80,9 @@ nome-do-aluno-itp-2025-2/
 |   |   |-- data.c                # Implementação das funções relacionadas à data (se houver)
 |   |   |-- comercio.c            # Implementação das funções de comércio
 |   |   `-- ... (outros .c se necessário)
-|   |-- include/                  # Arquivos de cabeçalho (.h)
-|   |   |-- produto.h             # Declaração da struct Produto e suas funções
-|   |   |-- vendas.h              # Declaração da struct Venda e suas funções
-|   |   |-- item_venda.h          # Declaração da struct Item_Venda e suas funções
-|   |   |-- nota_fiscal.h         # Declaração da struct Nota_Fiscal e suas funções
-|   |   |-- data.h                # Declaração da struct Data
-|   |   |-- comercio.h            # Declaração da struct Comercio
-|   |   `-- ... (outros .h se necessário)
+|
 |   |-- Makefile                  # Regras de compilação automatizada
 |   `-- README.md                 # Instruções sobre o projeto, compilação e uso
-|
-|-- listas/                       # Exercícios/listas da disciplina
-|   |-- lista1/
-|   |   `-- ...
-|   |-- lista2/
-|   |   `-- ...
-|   `-- ...
 |
 `-- README.md                     # Descrição geral do repositório (projeto + listas)
 ```
@@ -90,6 +92,6 @@ nome-do-aluno-itp-2025-2/
 ### Como Compilar e Executar
 
 1.  Certifique-se de ter um compilador C (como o GCC) instalado no seu sistema.
-2.  Navegue até o diretório raiz do projeto (`nome-do-aluno-itp-2025-2/`) no seu terminal.
+2.  Navegue até o diretório raiz do projeto (`MARCUS---VINICIUS---DE---OLIVEIRA---itp---2025---2/`) no seu terminal.
 3.  Execute o comando: `make`
 4.  Para rodar o programa, use: `./projeto/nome_do_executavel` (o nome do executável será definido no seu `Makefile`).
