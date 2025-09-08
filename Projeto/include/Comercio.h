@@ -7,7 +7,8 @@ typedef struct {
 
     char nome;
     char contato;
-    char CNPJ;
+    char CNPJ; 
+    // vou precisar criar uma struct para o CNPJ já que é um atributo que precisa ser validado
     Endereco endereco_comercio;
    
 } Comercio;
