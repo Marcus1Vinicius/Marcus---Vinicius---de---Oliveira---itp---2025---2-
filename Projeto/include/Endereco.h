@@ -7,6 +7,7 @@ typedef struct {
     char cidade;
     char bairro;
     char rua;
+    int numero;
     
 } Endereco;
 

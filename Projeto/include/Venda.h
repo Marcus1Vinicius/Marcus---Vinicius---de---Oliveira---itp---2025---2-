@@ -8,9 +8,8 @@
 typedef struct {
     int id;
     Data data_venda;
-    float valor;
+    int valor;
     Item_venda lista_produtos;
-    // Produto produtos;
 
 }Venda;
 

@@ -6,7 +6,7 @@ typedef struct {
     int id_venda;
     int id_produto;
     int quantidade;
-    float valor_produto;
+    int valor_produto;
     
 } Item_venda;
 

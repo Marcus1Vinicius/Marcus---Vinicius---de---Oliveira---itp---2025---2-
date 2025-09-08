@@ -5,7 +5,7 @@ typedef struct {
 
     int id;
     char nome[50];
-    float valor;
+    int valor;
     int quantidade;
     char codigo_de_barra[20];
     
